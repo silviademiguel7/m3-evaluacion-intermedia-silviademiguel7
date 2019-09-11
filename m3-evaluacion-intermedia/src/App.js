@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import Pokemons from './components/Pokemons';
 import Pokelist from './components/Pokelist';
 import './css/app.css'
@@ -20,8 +20,6 @@ class App extends React.Component {
     );
   }
 }
-App.propTypes = {
-  Pokemons:PropTypes.arrayOf(PropTypes.object)
-}
+
 
 export default App;

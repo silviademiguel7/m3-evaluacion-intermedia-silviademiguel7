@@ -26,9 +26,6 @@ class Pokelist extends React.Component {
 }
 
 Pokelist.propTypes = {
-    url:PropTypes.string,
-    name:PropTypes.string,
-    pokemontype:PropTypes.array
-
+    Pokemons:PropTypes.arrayOf(PropTypes.object)
   }
 export default Pokelist;
