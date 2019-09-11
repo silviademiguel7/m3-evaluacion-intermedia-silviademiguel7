@@ -9,7 +9,7 @@ class Pokemon extends React.Component {
                 <ul className="card-pokemon-typeList">
                     {this.props.pokemontype.map(item => {
                         return (
-                            <div classNAme="card-pokemon-typeList__container">
+                            <div className="card-pokemon-typeList__container">
                                 <li>{item}</li>
                             </div>
                         )
