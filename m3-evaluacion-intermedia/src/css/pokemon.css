@@ -1,0 +1,26 @@
+h2{
+    margin: 8px 0 8px 0;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.card-pokemon-typeList{
+    margin: 0px;
+    padding:5px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; 
+}
+.card-pokemon-typeList__container{
+    padding:  0 0 0 5px ;
+}
+
+.card-pokemon-typeList__container{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    background-color: gray;
+}
+

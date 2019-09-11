@@ -1,4 +1,4 @@
-.containerList{}
+
 .pokemonsList{
     margin: 0px;
     padding:0px;
@@ -9,7 +9,7 @@
     grid-gap: 10px;
 }
 .card-pokemon{
-   background-color: blue;
+   background-color: rgb(206, 229, 245);
    border: 2px solid black;
    border-radius: 20px;
 }
